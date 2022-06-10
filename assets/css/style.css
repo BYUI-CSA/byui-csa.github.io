@@ -66,8 +66,8 @@
 body{
     margin:0;
     padding:0;
-    background:#222b2f 0 0;
-    color:#eaeaea;
+    background:black 0 0;
+    color:white;
     font-size:16px;
     line-height:1.5;
     font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
@@ -88,7 +88,7 @@ li{
     line-height:1.4
 }
 header{
-    background:rgba(0,0,0,0.1);
+    background:black;
     width:100%;
     border-bottom:1px dashed #b5e853;
     padding:20px 0;
@@ -101,7 +101,6 @@ header h1{
     font-weight:bold;
     font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
     color:#b5e853;
-    text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
     letter-spacing:-1px;
     -webkit-font-smoothing:antialiased
 }
@@ -113,11 +112,6 @@ header h1{
 header h1:before{
     content:"./ ";
     font-size:24px
-}
-header h2{
-    font-size:18px;
-    font-weight:300;
-    color:#666
 }
 #downloads .btn{
     display:inline-block;
@@ -136,7 +130,6 @@ h1,h2,h3,h4,h5,h6{
     font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
     color:#caa851;
     letter-spacing:-0.03em;
-    text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1)
 }
 #main_content h1{
     font-size:30px
@@ -169,7 +162,7 @@ ul li{
     list-style-image:url("../images/bullet.png")
 }
 blockquote{
-    color:#aaa;
+    color:white;
     padding-left:10px;
     border-left:1px dotted #666
 }
@@ -212,7 +205,6 @@ hr{
 }
 a{
     color:#63c0f5;
-    text-shadow:0 0 5px rgba(104,182,255,0.5)
 }
 .cf:before,.cf:after{
     content:"";
@@ -231,8 +223,7 @@ body{
     font-family:Monaco, "Bitstream Vera Sans Mono", Consolas, "Lucida Console", monospace
 }
 a{
-    color:#006EB6;
-    text-shadow:0 0 5px rgba(0,0,0,0.9);
+    color:#7bd8ff;
     text-decoration:inherit
 }
 a:hover{
@@ -245,7 +236,7 @@ code.language-plaintext{
     color:#C7A5C0
 }
 body{
-    background:#222b2f
+    background:black
 }
 header{
     border-bottom-color:#006EB6
@@ -269,6 +260,41 @@ ul li{
     list-style-image:unset;
     list-style-type:none
 }
+/* Navbar CSS */
+#extnav li:before{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    content: unset;
+}
+#extnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#extnav li {
+    float: left;
+}
+  
+#extnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#extnav li a:hover {
+    text-decoration: underline;
+}
+#tryhackme {
+    float:right;
+    width: 300px;
+    padding-left: 10%;
+    margin-top: 25px;
+}
+/* End Navbar CSS */
+
 @media (max-width: 900px){
     header h1{
         margin-left:0
