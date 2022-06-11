@@ -66,7 +66,7 @@
 body{
     margin:0;
     padding:0;
-    background:#333 0 0;
+    background:#222 0 0;
     color:white;
     font-size:16px;
     line-height:1.5;
@@ -88,7 +88,7 @@ li{
     line-height:1.4
 }
 header{
-    background:#333;
+    background:#222;
     width:100%;
     border-bottom:1px dashed #b5e853;
     padding:20px 0;
@@ -236,7 +236,7 @@ code.language-plaintext{
     color:#C7A5C0
 }
 body{
-    background:#333
+    background:#222
 }
 header{
     border-bottom-color:#0f9fff
