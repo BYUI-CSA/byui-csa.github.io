@@ -33,7 +33,7 @@
     color:#ac4142
 }
 .highlight .gh{
-    color:#caa851;
+    color:#006EB6;
     font-weight:bold
 }
 .highlight .k,.highlight .kn,.highlight .kp,.highlight .kr,.highlight .kv{
@@ -66,7 +66,7 @@
 body{
     margin:0;
     padding:0;
-    background:black 0 0;
+    background:#333 0 0;
     color:white;
     font-size:16px;
     line-height:1.5;
@@ -88,7 +88,7 @@ li{
     line-height:1.4
 }
 header{
-    background:black;
+    background:#333;
     width:100%;
     border-bottom:1px dashed #b5e853;
     padding:20px 0;
@@ -128,7 +128,7 @@ section img{
 h1,h2,h3,h4,h5,h6{
     font-weight:normal;
     font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-    color:#caa851;
+    color:#0f9fff;
     letter-spacing:-0.03em;
 }
 #main_content h1{
@@ -236,13 +236,13 @@ code.language-plaintext{
     color:#C7A5C0
 }
 body{
-    background:black
+    background:#333
 }
 header{
-    border-bottom-color:#006EB6
+    border-bottom-color:#0f9fff
 }
 header h1{
-    color:#caa851;
+    color:#0f9fff;
     font-weight:bold
 }
 header img{
@@ -250,7 +250,7 @@ header img{
     margin-top:-2px
 }
 li:before{
-    color:#caa851;
+    color:#006EB6;
     content:">>";
     display:inline-block;
     margin-left:-2em;
