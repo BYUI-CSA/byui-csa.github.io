@@ -276,6 +276,14 @@ ul li{
 #extnav li {
     float: left;
 }
+
+footer {
+    text-align: center;
+    width: 100%;
+    float: left;
+    display: inline;
+    margin: 50px 0;
+}
   
 #extnav li a {
     display: block;
@@ -293,6 +301,16 @@ ul li{
     padding-left: 10%;
     margin-top: 25px;
 }
+.float-container {
+    padding: 20px;
+    display: block;
+}
+
+.float-child {
+    width: 45%;
+    float: left;
+    padding: 20px;
+}  
 /* End Navbar CSS */
 
 @media (max-width: 900px){
