@@ -312,7 +312,16 @@ footer {
     padding: 20px;
 }  
 /* End Navbar CSS */
-
+/*#grid-box {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: red;
+}
+.spanning-images {
+    background-color: green;
+}*/
 @media (max-width: 900px){
     header h1{
         margin-left:0
