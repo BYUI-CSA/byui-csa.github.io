@@ -113,7 +113,7 @@ header h1:before{
     text-align:center;
     margin:0
 }
-#main_content{
+#main_content, #main_content2{
     width:100%;
     -webkit-font-smoothing:antialiased
 }
@@ -314,6 +314,9 @@ footer {
 .spanning-images {
     background-color: green;
 }*/
+#toph2 {
+    color: black;
+}
 .button {
     background-color: #ddd;
     border: none;
